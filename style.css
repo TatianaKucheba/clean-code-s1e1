@@ -38,14 +38,14 @@
   display: flex;
 }
 .list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .list__item, .heading {
-  list-style:none;
+  list-style: none;
 }
 .input {
-  outline:none;
+  outline: none;
 }
 .button {
   background: none;
@@ -55,7 +55,7 @@
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
-  outline:none;
+  outline: none;
 }
 .button:hover {
   color: #3a3A3a;
@@ -135,14 +135,14 @@
 
 /* Edit Task */
 .list .list__item .type-text {
-  display:none
+  display: none
 }
 
 .list .list__item.edit-mode .type-text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .list .list__item.edit-mode .label {
-  display:none;
+  display: none;
 }
